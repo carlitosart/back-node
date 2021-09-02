@@ -1,0 +1,24 @@
+{
+  "name": "back-node",
+  "version": "1.0.0",
+  "description": "Tareas:\r     - Listado: GET /tasks\r     - Obtener una tarea: GET /tasks/{id}\r     - Crear: POST /tasks\r     - Editar: PUT /tasks/{id}\r     - Eliminar: DELETE /tasks/{id}\r     - Marcar completado: PUT /tasks/{id}?state=completed\r     - Marcar pendiente: PUT /tasks/{id}?state=pending",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlitosart/back-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlitosart/back-node/issues"
+  },
+  "homepage": "https://github.com/carlitosart/back-node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
